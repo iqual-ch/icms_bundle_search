@@ -1,0 +1,14 @@
+name: 'ICMS Search Recipe'
+description: 'A basic facted search.'
+type: 'Site'
+
+install:
+  # Contrib
+  - graphql_search_api_query
+
+config:
+  actions:
+  # GraphQL Core Schema
+    graphql.graphql_servers.graphql:
+      simple_config_update:
+        schema_configuration.core_composable.extensions.search_api_query: search_api_query

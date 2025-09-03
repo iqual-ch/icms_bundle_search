@@ -9,8 +9,7 @@
     "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
   },
   "require": {
-    "iqual/blokkli_starterkit": "^1.0",
-    "drupal/graphql_search_api_query": "^1.0"
+    "iqual/blokkli_starterkit": "^1.0"
   },
   "version": "1.x-dev"
 }

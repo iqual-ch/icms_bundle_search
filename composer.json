@@ -1,15 +1,22 @@
 {
-  "name": "iqual/icms_bundle_search",
-  "type": "drupal-recipe",
-  "description": "A content type and layout for publishing search.",
-  "keywords": ["ICMS", "recipe", "Drupal recipes", "drupal recipe"],
-  "license": ["GPL-2.0-or-later"],
-  "minimum-stability": "dev",
-  "support": {
-    "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
-  },
-  "require": {
-    "iqual/blokkli_starterkit": "^1.0"
-  },
-  "version": "1.x-dev"
+    "name": "iqual/icms_bundle_search",
+    "type": "drupal-recipe",
+    "description": "A content type and layout for publishing search.",
+    "keywords": [
+        "ICMS",
+        "recipe",
+        "Drupal recipes",
+        "drupal recipe"
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "minimum-stability": "dev",
+    "support": {
+        "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
+    },
+    "require": {
+        "iqual/blokkli_starterkit": "^1.0"
+    },
+    "version": "1.2.0"
 }
